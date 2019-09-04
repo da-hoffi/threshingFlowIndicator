@@ -1,23 +1,25 @@
 # threshingFlowIndicator
 lua script for FS19 to visualize the current threshing flow
 
-Author: 		  HoFFi (modding-welt.com)
-Remarks:		  Thanks to Zetor6245 for testing and providing his Claas Jaguar 800 Pack as guinea pig
-				      Thanks to antonis78 who had the initial idea for this script and who gave me the motivation to continue with lua
+Author: 		HoFFi (modding-welt.com)
+Remarks:		Thanks to Zetor6245 for testing and providing his Claas Jaguar 800 Pack as guinea pig
+			Thanks to antonis78 who had the initial idea for this script and who gave me the motivation to continue with lua
 
 
 Description: 	script to visualize the current threshing flow
 
 Version: 		  1.0.2.0
 
-Changelog: 		2019-08-08 	- initial release
-				      2019-08-12 	- added more complex way of showing the current load (indicator bar with 13 lights)
-				      2019-08-27 	- hud / help window text, has been improved
-							- cutter load depends on…: fruit type, current speed, used width of cutter
-							- max. speed of each fruit is easily adjustable in below
-							- engine dies, warn sound is played and warning text is showed when driving too fast (allowed fruit speed + tolerance)
-							- tolerance adjustable via xml (default 2kmh/mph)
-							- “hardStop” (engine dies) can be turned off in xml
+Changelog: 
+
+	2019-08-08 	- initial release
+	2019-08-12 	- added more complex way of showing the current load (indicator bar with 13 lights)
+	2019-08-27 	- hud / help window text, has been improved
+			- cutter load depends on…: fruit type, current speed, used width of cutter
+			- max. speed of each fruit is easily adjustable in below
+			- engine dies, warn sound is played and warning text is showed when driving too fast (allowed fruit speed + tolerance)
+			- tolerance adjustable via xml (default 2kmh/mph)
+			- “hardStop” (engine dies) can be turned off in xml
 
 
 --------------------------------------------------------------------------------------------------
