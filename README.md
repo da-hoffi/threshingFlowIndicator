@@ -21,12 +21,12 @@ Changelog: 		2019-08-08 	- initial release
 
 
 --------------------------------------------------------------------------------------------------
+Mod-XML:
 
-XML:
-	  <threshingFlowIndicator indicatorBarNode="name of bar in i3d" showInHud="true" hardStop="true" maxSpeedOffset="2">
-		    <lights light1="greenstarON01" light2="greenstarON02" light3="greenstarON03" light4="greenstarON04" light5="greenstarON05" light6="greenstarON06" light7="greenstarON07" light8="greenstarON08" light9="greenstarON09" light10="greenstarON10" light11="greenstarON11" light12="greenstarON12" light13="greenstarON13" />
-	  </threshingFlowIndicator>
-	
+	<threshingFlowIndicator indicatorBarNode="name of bar in i3d" showInHud="true" hardStop="true" maxSpeedOffset="2">
+		<lights light1="greenstarON01" light2="greenstarON02" light3="greenstarON03" light4="greenstarON04" light5="greenstarON05" light6="greenstarON06" light7="greenstarON07" light8="greenstarON08" light9="greenstarON09" light10="greenstarON10" light11="greenstarON11" light12="greenstarON12" light13="greenstarON13" />
+	</threshingFlowIndicator>
+
 Moddesc:
 	  <specializations>
         <specialization name="threshingFlowIndicator" className="threshingFlowIndicator" filename="threshingFlowIndicator.lua"/>
