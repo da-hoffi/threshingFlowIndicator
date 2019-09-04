@@ -46,7 +46,7 @@ Moddesc:
 	  </l10n>
 	
 Explaination:
-	  indicatorBarNode = visual object (bar) to be scaled
-	  showInHud = if true, current flow will be displayed in hud (help menu)
-	  hardStop = if true, motor stops if current speed is higher than allowed maximum speed for a fruit + maxSpeedOffset
-	  maxSpeedOffset = this value is added to the maximum allowed speed per fruit as tolerance before motor stops 
+	indicatorBarNode = visual object (bar) to be scaled
+	showInHud = if true, current flow will be displayed in hud (help menu)
+	hardStop = if true, motor stops if current speed is higher than allowed maximum speed for a fruit + maxSpeedOffset
+	maxSpeedOffset = this value is added to the maximum allowed speed per fruit as tolerance before motor stops 
